@@ -67,6 +67,7 @@
 
 	<build>
 		<sourceDirectory>src</sourceDirectory> <!-- needed since the Maven stadard directory structure is not used i.e. "src/main/java" -->
+		<testSourceDirectory>test</testSourceDirectory>
 	</build>
 	
 </project>
