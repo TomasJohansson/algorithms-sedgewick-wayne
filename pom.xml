@@ -66,8 +66,18 @@
 	</properties>	
 
 	<build>
+		<resources>
+			<resource>
+				<directory>${project.basedir}</directory>
+				<includes>
+					<include>LICENSE</include>
+					<include>LICENSE_NOTICE__GPLv3.md</include>
+				</includes>
+			</resource>
+		</resources>	
 		<sourceDirectory>src</sourceDirectory> <!-- needed since the Maven stadard directory structure is not used i.e. "src/main/java" -->
 		<testSourceDirectory>test</testSourceDirectory>
 	</build>
 	
+		
 </project>
